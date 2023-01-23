@@ -40,6 +40,10 @@ app.post("/api/notes", (req, res) => {
     res.json(notes);
 });
 
+app.get("*", function (req, res) {
+    res.sendFile(path.join(__dirname, "/public/index.html"));
+});
+
 app.listen(PORT, function () {
     console.log(`Example app listening at http://localhost:${PORT} 🚀`)
 });
