@@ -28,6 +28,8 @@ This application will use an Express.js back end and will save and retrieve a no
 
 ## Usage
 You will be able to save and delete notes using the application.
+![img landing page](./public/assets/img/landingpage.jpg)
+![img note taker](./public/assets/img/note.jpg)
 
 ## Credits
 Starter code: https://github.com/coding-boot-camp/miniature-eureka
